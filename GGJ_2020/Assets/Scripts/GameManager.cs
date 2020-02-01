@@ -63,13 +63,16 @@ public class GameManager: MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
 
-        } else if (Input.GetKeyDown(KeyCode.Z))
+        }
+        else if (Input.GetKeyDown(KeyCode.Z))
         {
 
-        } else if (Input.GetKeyDown(KeyCode.Z))
+        }
+        else if (Input.GetKeyDown(KeyCode.Z))
         {
 
-        } else if (Input.GetKeyDown(KeyCode.Z))
+        }
+        else if (Input.GetKeyDown(KeyCode.Z))
         {
 
         }
