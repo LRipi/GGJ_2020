@@ -1,14 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Screw.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeScene.cs">
     <Files>
-      <File FileName="Assets/Scripts/Scanner.cs" Line="10" Column="9" IsPinned="True" />
-      <File FileName="Assets/Scripts/GameManager.cs" />
-      <File FileName="Assets/Scripts/Workbenches.cs" />
-      <File FileName="Assets/Scripts/Hammer.cs" />
-      <File FileName="Assets/Scripts/Screw.cs" Line="5" Column="32" />
-      <File FileName="Assets/Scripts/Saw.cs" />
-      <File FileName="Assets/Scripts/Braze.cs" />
+      <File FileName="Assets/Scripts/Scanner.cs" Line="4" Column="1" IsPinned="True" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="78" Column="1" />
+      <File FileName="Assets/Scripts/Workbenches.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/Hammer.cs" Line="5" Column="34" />
+      <File FileName="Assets/Scripts/Screw.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/Saw.cs" Line="5" Column="17" />
+      <File FileName="Assets/Scripts/Braze.cs" Line="18" Column="2" />
       <File FileName="Assets/Scripts/Nail.cs" Line="5" Column="32" />
+      <File FileName="Assets/Scripts/ChangeScene.cs" Line="4" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
