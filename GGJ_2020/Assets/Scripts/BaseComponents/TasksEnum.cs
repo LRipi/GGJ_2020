@@ -7,6 +7,7 @@ namespace baseComponents
       solder,
       hammer,
       connect,
-      clean
+      clean,
+      screw
   }
 }

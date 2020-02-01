@@ -16,14 +16,14 @@ public class Laptop : BaseObject
     recipe.Add(Tasks.clean);
   }
   private void Start() {
-    Console.writeLine("OnStart");
+    print("OnStart");
   }
 
   private void Update() {
-    Console.writeLine("OnPause");
+    print("OnPause");
   }
 
   private void OnApplicationPause(bool pauseStatus) {
-    Console.writeLine("OnPause");
+    print("OnPause");
   }
 }

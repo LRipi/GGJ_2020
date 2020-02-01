@@ -55,7 +55,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BaseComponents\BaseObjectController.cs" />
+     <Compile Include="Assets\Scripts\BaseComponents\TasksEnum.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Objects\Laptop.cs" />
+     <Compile Include="Assets\Scripts\Objects\Motor.cs" />
+     <Compile Include="Assets\Scripts\Objects\Playstation.cs" />
+     <Compile Include="Assets\Scripts\Objects\Smartphone.cs" />
+     <Compile Include="Assets\Scripts\Objects\Television.cs" />
+     <Compile Include="Assets\Scripts\Objects\Watch.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/GGJ_2020/GGJ_2020/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
