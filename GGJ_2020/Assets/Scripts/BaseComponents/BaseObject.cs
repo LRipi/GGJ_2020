@@ -1,0 +1,46 @@
+using UnityEngine;
+
+using System.Collections;
+using System.Collections.Generic;
+
+
+namespace baseComponents
+{
+    public class BaseObject : MonoBehaviour
+    {
+        private bool _taken = false;
+        public bool taken
+        {
+          get { return _taken; }
+          set { _taken = value; }
+        }
+
+        private bool _analized = false;
+        public bool analized
+        {
+          get { return _analized; }
+          set { _analized = value; }
+        }
+        
+        private bool _repaired = false;
+        public bool repaired
+        {
+          get { return _repaired; }
+          set { _repaired = value; }
+        }
+        
+        private List<BaseWorkbench> _recipe;
+
+        public List<BaseWorkbench> recipe
+        {
+          get { return _recipe; }
+          set { _recipe = value; }
+        }
+        private int _allowedTime;
+        public int allowedTime
+        {
+            get { return _allowedTime; }
+            set { _allowedTime = value; }
+        }
+    }
+}
