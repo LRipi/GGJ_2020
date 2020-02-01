@@ -63,7 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\MapCreation.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/leoriberon-piatyszek/RiderProjects/GGJ_2020/GGJ_2020/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
