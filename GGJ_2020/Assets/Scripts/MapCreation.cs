@@ -6,17 +6,19 @@ using UnityEditor;
 
 public class MapCreation : MonoBehaviour
 {
-    private int width;
-    private int height;
+    public int width;
+    public int height;
 
-    public Tile leftTile;
-    public Tile rightTile;
+    public Tile defaultTile;
     public Tile bottomTile;
+    public Tile rightTile;
     public Tile topTile;
-    public Tile rightBottomCornerTile;
-    public Tile rightTopCornerTile;
+    public Tile leftTile;
     public Tile leftBottomCornerTile;
     public Tile leftTopCornerTile;
+    public Tile rightBottomCornerTile;
+    public Tile rightTopCornerTile;
+
     // Start is called before the first frame update
     void Start()
     {

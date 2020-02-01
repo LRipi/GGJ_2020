@@ -1,17 +1,15 @@
-﻿<Properties StartupConfiguration="{29E11BD6-7E71-C141-FC64-92C29A53CB39}|Tests unitaires">
+﻿<Properties StartupConfiguration="{0B0E86F2-5FA6-C218-AE95-C44E001983BE}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MapCreation.cs">
     <Files>
-      <File FileName="Assets/Scripts/MapCreation.cs" Line="10" Column="9" />
+      <File FileName="Assets/Scripts/MapCreation.cs" Line="7" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GGJ_2020" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="Assets" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="MapCreation.cs" selected="True" />
-                </Node>
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="MapCreation.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -21,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.UnityEngine.TestRunner PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a3aa3d1d-53e1-4cb9-b99c-305f809a9635" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
