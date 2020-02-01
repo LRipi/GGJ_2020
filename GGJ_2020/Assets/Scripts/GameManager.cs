@@ -10,19 +10,21 @@ public class GameManager: MonoBehaviour
     public int score;
     public int player;
     private float timer;
+    public Text timerText;
     public Text scoreText;
     public List<int> objectList;
 
     private void Awake()
     {
         makeSingleton();
-        timer = 10.0f;
+        timer = 90.0f;
     }
 
     private void Update()
     {
         updateTimer();
         catchEntry();
+        updateScore();
     }
 
     private void makeSingleton()
@@ -44,8 +46,17 @@ public class GameManager: MonoBehaviour
         if (timer < 0)
             print("END");
         else
-            scoreText.text = timer.ToString("0");
+        {
+            int minutes = ((int) timer / 60);
+            int seconds = ((int) timer % 60);
+            timerText.text = $"{minutes.ToString("0")}:{seconds.ToString("0")}";
+        }
     }
+
+    private void updateScore()
+	{
+        scoreText.text = score.ToString();
+	}
 
     private void catchEntry()
     {

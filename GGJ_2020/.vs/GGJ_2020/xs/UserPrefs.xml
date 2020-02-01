@@ -1,7 +1,7 @@
-﻿<Properties StartupConfiguration="{0B0E86F2-5FA6-C218-AE95-C44E001983BE}|">
+﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameManager.cs" Line="61" Column="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="10" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,8 +12,10 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Assembly-CSharp.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1a659112-0cc8-47cf-9871-1bd7082a02e2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
