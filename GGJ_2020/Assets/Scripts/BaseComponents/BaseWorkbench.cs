@@ -8,6 +8,13 @@ namespace baseComponents
 {
     public class BaseWorkbench : MonoBehaviour
     {
+        private string _name = "";
+        public string name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
+
         private bool _occupied = false;
         public bool occupied
         {

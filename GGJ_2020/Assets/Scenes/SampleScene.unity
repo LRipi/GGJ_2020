@@ -133,9 +133,10 @@ GameObject:
   - component: {fileID: 128921522}
   - component: {fileID: 128921523}
   - component: {fileID: 128921524}
+  - component: {fileID: 128921525}
   m_Layer: 0
   m_Name: braze
-  m_TagString: Untagged
+  m_TagString: Workbench
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -256,6 +257,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.55415344, y: 0.64}
   m_EdgeRadius: 0
+--- !u!114 &128921525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128921520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8853938ce658d3d469d6a7521173bbcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &310215229
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,7 +876,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780345298}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.48, y: 1.52, z: 0}
+  m_LocalPosition: {x: -6.48, y: 1.25, z: 0}
   m_LocalScale: {x: 1.555007, y: 1.555007, z: 1.555007}
   m_Children: []
   m_Father: {fileID: 1095642727}
@@ -3638,6 +3651,7 @@ GameObject:
   - component: {fileID: 1073530526}
   - component: {fileID: 1073530527}
   - component: {fileID: 1073530522}
+  - component: {fileID: 1073530528}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3787,6 +3801,18 @@ RotationConstraint:
   m_IsContraintActive: 1
   m_IsLocked: 0
   m_Sources: []
+--- !u!114 &1073530528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073530521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6a53e696ab63d74ea211577df951518, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1093791392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4157,6 +4183,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   player: 0
+  timerText: {fileID: 0}
+  scoreText: {fileID: 0}
   objectList: 
 --- !u!4 &1496033216
 Transform:
@@ -4199,7 +4227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651664781}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.52, y: -3.5, z: 0}
+  m_LocalPosition: {x: 1.07, y: -3.48, z: 0}
   m_LocalScale: {x: 1.5229447, y: 1.5229447, z: 1.5229447}
   m_Children: []
   m_Father: {fileID: 1095642727}

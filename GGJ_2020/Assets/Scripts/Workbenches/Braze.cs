@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Diagnostics;
+using UnityEngine;
 
 using System.Collections;
 using System.Collections.Generic;
@@ -10,6 +11,11 @@ namespace workbenches
     public class Braze : BaseWorkbench
     {
         // Start is called before the first frame update
+
+        public Braze()
+        {
+            name = "Brazing Table";
+        }
         void Start()
         {
             
@@ -19,6 +25,11 @@ namespace workbenches
         void Update()
         {
             
+        }
+
+        void put()
+        {
+            print("Something has been put on the brazing table");
         }
     }
 }
