@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Braze : MonoBehaviour
+public class Braze : Workbenches
 {
     // Start is called before the first frame update
     void Start()

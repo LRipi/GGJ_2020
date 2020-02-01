@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface Workbenches : MonoBehaviour
+public class Workbenches : MonoBehaviour
 {
     bool occupied;
     int processTime;
