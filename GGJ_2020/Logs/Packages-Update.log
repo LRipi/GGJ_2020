@@ -1,5 +1,5 @@
 
-=== Fri Jan 31 19:29:41 2020
+=== Sat Feb  1 08:29:50 2020
 
 Packages were changed.
 Update Mode: mergeDefaultDependencies
@@ -43,14 +43,3 @@ The following packages were added:
   com.unity.modules.vr@1.0.0
   com.unity.modules.wind@1.0.0
   com.unity.modules.xr@1.0.0
-
-=== Sat Feb  1 07:36:30 2020
-
-Packages were changed.
-Update Mode: mergeDefaultDependencies
-
-The following packages were added:
-  com.unity.ads@2.0.8
-  com.unity.analytics@3.2.2
-  com.unity.package-manager-ui@2.0.3
-  com.unity.purchasing@2.0.3
