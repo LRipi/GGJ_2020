@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEditor;
 
 public class GameManager: MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class GameManager: MonoBehaviour
     public int score;
     public int player;
     private float timer;
+    public Text scoreText;
     public List<int> objectList;
 
     private void Awake()
@@ -39,7 +42,9 @@ public class GameManager: MonoBehaviour
     {
         timer -= Time.deltaTime;
         if (timer < 0)
-            print("HEY");
+            print("END");
+        else
+            scoreText.text = timer.ToString("0");
     }
 
     private void catchEntry()
