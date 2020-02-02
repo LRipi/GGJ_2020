@@ -27,7 +27,7 @@ public class loadingbar : MonoBehaviour {
         }
         else
         {
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("SampleScene");
 
         }
     }
