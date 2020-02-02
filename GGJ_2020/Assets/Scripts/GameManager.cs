@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEditor;
 
-public class GameManager: Workbenches
+public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public int score;
