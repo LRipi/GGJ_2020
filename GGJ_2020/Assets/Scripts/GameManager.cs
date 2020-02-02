@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEditor;
 
-public class GameManager: MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public int score;
@@ -63,13 +63,16 @@ public class GameManager: MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
 
-        } else if (Input.GetKeyDown(KeyCode.Z))
+        }
+        else if (Input.GetKeyDown(KeyCode.Z))
         {
 
-        } else if (Input.GetKeyDown(KeyCode.Z))
+        }
+        else if (Input.GetKeyDown(KeyCode.Z))
         {
 
-        } else if (Input.GetKeyDown(KeyCode.Z))
+        }
+        else if (Input.GetKeyDown(KeyCode.Z))
         {
 
         }
