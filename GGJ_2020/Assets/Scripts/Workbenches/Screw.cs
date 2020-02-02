@@ -10,6 +10,11 @@ namespace workbenches
     public class Screw : BaseWorkbench
     {
         // Start is called before the first frame update
+        public Screw()
+        {
+            processTime = 4;
+        }
+
         void Start()
         {
             
