@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager: MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public int score;
@@ -19,7 +19,7 @@ public class GameManager: MonoBehaviour
     private void Update()
     {
         updateTimer();
-        catchEntry();
+        //catchEntry();
     }
 
     private void makeSingleton()
@@ -38,27 +38,25 @@ public class GameManager: MonoBehaviour
     private void updateTimer()
     {
         timer -= Time.deltaTime;
-        if (timer < 0)
-            print("HEY");
-    }
-
-    private void catchEntry()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
+        /*
+        public void catchEntry()
         {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
 
-        }
-        else if (Input.GetKeyDown(KeyCode.Z))
-        {
+            }
+            else if (Input.GetKeyDown(KeyCode.Z))
+            {
 
-        }
-        else if (Input.GetKeyDown(KeyCode.Z))
-        {
+            }
+            else if (Input.GetKeyDown(KeyCode.Z))
+            {
 
-        }
-        else if (Input.GetKeyDown(KeyCode.Z))
-        {
+            }
+            else if (Input.GetKeyDown(KeyCode.Z))
+            {
 
-        }
+            }
+        }*/
     }
 }
