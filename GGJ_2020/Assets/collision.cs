@@ -30,7 +30,7 @@ public class collision : MonoBehaviour
             t = Time.time - _StartTime;
             seconds = (t % 60);
             countDown = (5 - ((int)seconds % 6));
-            TimerText.text = countDown.ToString();
+            TimerText.text = "time\nleft : " + countDown.ToString();
             if (countDown == 0)
             {
                 _workBench = false;
