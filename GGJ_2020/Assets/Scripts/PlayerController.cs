@@ -9,6 +9,10 @@ public class PlayerController : MonoBehaviour
     public bool Working;
     public SpriteRenderer PlayerSprite;
 
+    // check multiple inputs
+    public string VerticalInput = "Vertical_P1";
+    public string HorizontalInput = "Horizontal_P1";
+
     public PlayerAnimationSprite PlayerAnimation;
 
     // Start is called before the first frame update
@@ -17,8 +21,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal") * Speed;
-        float moveVertical = Input.GetAxis("Vertical") * Speed;
+        float moveHorizontal = Input.GetAxis(HorizontalInput) * Speed;
+        float moveVertical = Input.GetAxis(VerticalInput) * Speed;
 
         moveHorizontal *= Time.deltaTime;
         moveVertical *= Time.deltaTime;
