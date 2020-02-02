@@ -3638,6 +3638,7 @@ GameObject:
   - component: {fileID: 1073530526}
   - component: {fileID: 1073530527}
   - component: {fileID: 1073530522}
+  - component: {fileID: 1073530529}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3659,6 +3660,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 5
   Working: 0
+  PlayerSprite: {fileID: 1073530524}
+  PlayerAnimation: {fileID: 1073530529}
 --- !u!50 &1073530523
 Rigidbody2D:
   serializedVersion: 4
@@ -3738,7 +3741,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073530521}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.81, y: -0.02, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.7116877, y: 1.7116877, z: 1.7116877}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3787,6 +3790,37 @@ RotationConstraint:
   m_IsContraintActive: 1
   m_IsLocked: 0
   m_Sources: []
+--- !u!114 &1073530529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073530521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea998fabde6bf7645908350c2bcb59ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerSpriteRenderer: {fileID: 1073530524}
+  RunningDown:
+  - {fileID: 21300000, guid: d253e5ed8cd2630438c2954cb299cc13, type: 3}
+  - {fileID: 21300000, guid: 3d05c69baaf391c4d932535b2953db94, type: 3}
+  - {fileID: 21300000, guid: 04a6cff7530b22244b1c33926a41e1d8, type: 3}
+  RunningUp:
+  - {fileID: 21300000, guid: cba54742aa40fa449ae2bb1fa1757c2a, type: 3}
+  - {fileID: 21300000, guid: e49231f56015b51419a157a8b0a34ddd, type: 3}
+  - {fileID: 21300000, guid: 171d818ac2826c34bbd815faab9d127f, type: 3}
+  RunningLeft:
+  - {fileID: 21300000, guid: 1ac3d7b48109ade4e843c2658c14f2a1, type: 3}
+  - {fileID: 21300000, guid: a69ecf5176b8f0f49872681d7d73878f, type: 3}
+  - {fileID: 21300000, guid: a2481e57e4ef99944b1c63c8b96dc409, type: 3}
+  RunningRight:
+  - {fileID: 21300000, guid: 2126fcda0f2f3364cacc36a85ae9cce5, type: 3}
+  - {fileID: 21300000, guid: edf8883f836cec44980fe81364628429, type: 3}
+  - {fileID: 21300000, guid: 03aed378d1d6b44438221b12abd29c40, type: 3}
+  Idle: {fileID: 21300000, guid: b4d7e9017cd98994eb51868ed9ac5800, type: 3}
+  NbrSpriteInAnimate: 3
 --- !u!1001 &1093791392
 PrefabInstance:
   m_ObjectHideFlags: 0
